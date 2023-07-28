@@ -1,6 +1,6 @@
 # FileManagement
 
-O FileManagement é um projeto desenvolvido para ler arquivos nos formatos xlsx ou csv e realizar o processamento dos mesmos. 
+O FileManagement é um projeto desenvolvido em .NET 7.0 para ler arquivos nos formatos xlsx ou csv e realizar o processamento dos mesmos. 
 Ele foi implementado utilizando o padrão Factory para criar instâncias das classes de leitura com base na extensão do arquivo e o header,
 além de utilizar o padrão Visitor para realizar o processamento dos registros.
 
