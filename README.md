@@ -9,6 +9,16 @@ Pense em um cenário onde você precisa implementar leituras de arquivos dinamic
 
 O problema que será resolvido basicamente é não precisar ficar criando métodos para leitura do arquivo X, Y ou Z. 
 
+## Funcionalidades
+
+**1**. Leitura de arquivos xlsx ou csv: O sistema pode ler arquivos tanto no formato xlsx (Excel) quanto no formato csv (valores separados por vírgula).
+
+**2**. Criação dinâmica de instâncias: Com base na extensão do arquivo fornecido, o sistema utiliza o padrão Factory para criar a instância adequada da classe de leitura correspondente.
+
+**3**. Criação de Factory para o header: O sistema também utiliza o padrão Factory para criar a instância do Factory que irá processar o header do arquivo.
+
+**4**. Processamento dos dados: Após a leitura do arquivo e a criação dos objetos adequados, o sistema utiliza o padrão Visitor para realizar o processamento dos dados contidos no arquivo, de acordo com o tipo de arquivo e suas características específicas.
+
 ## Como implementar a leitura de um arquivo com um header novo?
 **1**. Crie uma classe header com as propriedades especificas do produto.
 
@@ -60,34 +70,34 @@ O problema que será resolvido basicamente é não precisar ficar criando métod
 
 ------------------------------------------
 
-## Funcionalidades
+## Como realizar um teste?
+1. Clone o repositório do GitHub:
+```
+https://github.com/Allanhenriquee/FileManagement.git
+```
+2. Abra o projeto em sua IDE de prefêrencia e execute.
 
-**1**. Leitura de arquivos xlsx ou csv: O sistema pode ler arquivos tanto no formato xlsx (Excel) quanto no formato csv (valores separados por vírgula).
+3. Com o projeto em execução abra o postman, insomnia ou swagger da aplicação faça upload do arquivo e a requisição para o endpoint.
+ 
+------------------------------------------
 
-**2**. Criação dinâmica de instâncias: Com base na extensão do arquivo fornecido, o sistema utiliza o padrão Factory para criar a instância adequada da classe de leitura correspondente.
+### Arquivos de exemplo
 
-**3**. Criação de Factory para o header: O sistema também utiliza o padrão Factory para criar a instância do Factory que irá processar o header do arquivo.
+![image](https://github.com/Allanhenriquee/FileManagement/assets/52016301/ba1ab2f1-ed94-4ecd-8128-901e98c0dc11)
 
-**4**. Processamento dos dados: Após a leitura do arquivo e a criação dos objetos adequados, o sistema utiliza o padrão Visitor para realizar o processamento dos dados contidos no arquivo, de acordo com o tipo de arquivo e suas características específicas.
+------------------------------------------
+
+### Upload e requisição do postman  
+![image](https://github.com/Allanhenriquee/FileManagement/assets/52016301/27b956fd-0fde-4dbb-9bb1-1f64fc87ebcb)
+
+------------------------------------------
+
+### Resultado
+![image](https://github.com/Allanhenriquee/FileManagement/assets/52016301/3334ad9e-4150-4d5d-864d-26f405979686)
+
 
 
 ## Arquitetura do Projeto
 
 ![image](https://github.com/Allanhenriquee/FileManagement/assets/52016301/ad48f1b4-91e6-4432-ae05-7fc79a7e04fc)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
