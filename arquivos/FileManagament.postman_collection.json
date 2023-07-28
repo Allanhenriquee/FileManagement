@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "f07fb2db-bf30-4dfa-9e2c-3de6af2f499b",
+		"name": "FileManagament",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8229721"
+	},
+	"item": [
+		{
+			"name": "Upload File",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/Allan/Programacao/Projetos/.NET/GIT-Pessoal/FileManagement/arquivos/REM22062023_CARRO.xlsx"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44379/api/v1/file/upload",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44379",
+					"path": [
+						"api",
+						"v1",
+						"file",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
