@@ -7,7 +7,7 @@ além de utilizar o padrão Visitor para realizar o processamento dos registros.
 ## Tecnologias e Bibliotecas
 - [.NET 7](https://dotnet.microsoft.com/pt-br/download)
 - [CsvHelper](https://joshclose.github.io/CsvHelper/)
-- [ClosedXML](https://docs.closedxml.io/en/latest/)
+- [MiniExcel](https://github.com/mini-software/MiniExcel)
 
 ## Design Patterns
  - Factory Method
