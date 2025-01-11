@@ -1,3 +1,9 @@
 product,customer,is_new
 Bike,Jose,true
 Bike,Fernando,false
+Bike,Pedro,False
+Bike,Marcos,False
+Bike,Carlos,True
+Bike,Joao,False
+Bike,Guilherme,True
+Bike,Eduardo,False
