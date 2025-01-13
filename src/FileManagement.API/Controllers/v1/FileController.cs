@@ -1,7 +1,7 @@
 ﻿using FileManagement.Domain.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FileManagement.API.Controllers;
+namespace FileManagement.API.Controllers.v1;
 
 [ApiController]
 [Route("api/v1/file")]
